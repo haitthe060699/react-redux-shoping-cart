@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap");
+
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -11,9 +13,14 @@ body,
 body,
 input,
 select,
+button,
 textare {
   font-size: 1.6rem;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
 }
 
 .grid-container {
@@ -53,4 +60,17 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex: 3 60rem;
+}
+
+.sidebar {
+  flex: 1 20rem;
 }
