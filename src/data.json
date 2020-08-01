@@ -1,15 +1,15 @@
 {
   "products": [
     {
-      "id": "shirt1",
+      "id": 1,
       "title": "T-shirt 1",
       "image": "../images/image1.jpg",
       "description": "T-shirt 1 description 1",
-      "availableSizes": ["X", "M", "L", "XXL"],
+      "availableSizes": ["L", "XL"],
       "price": 10.5
     },
     {
-      "id": "shirt2",
+      "id": 2,
       "title": "T-shirt 2",
       "image": "../images/image2.jpg",
       "description": "T-shirt 2 description 1",
@@ -17,79 +17,79 @@
       "price": 11.9
     },
     {
-      "id": "shirt3",
+      "id": 3,
       "title": "T-shirt 3",
       "image": "../images/image3.jpg",
       "description": "T-shirt 3 description 1",
-      "availableSizes": ["X", "M", "L"],
+      "availableSizes": ["X", "XXL", "L"],
       "price": 7.9
     },
     {
-      "id": "shirt4",
+      "id": 4,
       "title": "T-shirt 4",
       "image": "../images/image4.jpg",
       "description": "T-shirt 4 description 1",
-      "availableSizes": ["X", "M"],
+      "availableSizes": ["X", "M", "XXXL"],
       "price": 12.8
     },
     {
-      "id": "shirt5",
+      "id": 5,
       "title": "T-shirt 5",
       "image": "/images/image5.jpg",
       "description": "T-shirt 5 description 1",
-      "availableSizes": ["X", "M", "L"],
+      "availableSizes": ["M", "XXXXL"],
       "price": 15
     },
     {
-      "id": "shirt6",
+      "id": 6,
       "title": "T-shirt 6",
       "image": "/images/image6.jpg",
       "description": "T-shirt 6 description 1",
-      "availableSizes": ["X", "M", "L", "XXL"],
+      "availableSizes": ["X", "L", "XXL"],
       "price": 15.9
     },
     {
-      "id": "shirt7",
+      "id": 7,
       "title": "T-shirt 7",
       "image": "/images/image7.jpg",
       "description": "T-shirt 7 description 1",
-      "availableSizes": ["X", "M", "L"],
+      "availableSizes": ["X", "XXXXL"],
       "price": 21.8
     },
     {
-      "id": "shirt8",
+      "id": 8,
       "title": "T-shirt 8",
       "image": "/images/image8.jpg",
       "description": "T-shirt 8 description 1",
-      "availableSizes": ["X", "M", "L", "XXXXL"],
+      "availableSizes": ["X", "M", "L", "XXL"],
       "price": 15.5
     },
     {
-      "id": "shirt9",
+      "id": 9,
       "title": "T-shirt 9",
       "image": "/images/image9.jpg",
       "description": "T-shirt 9 description 1",
-      "availableSizes": ["X", "M", "L"],
+      "availableSizes": ["M", "L"],
       "price": 10.1
     },
     {
-      "id": "shirt10",
+      "id": 10,
       "title": "T-shirt 10",
       "image": "/images/image10.jpg",
       "description": "T-shirt 10 description 1",
-      "availableSizes": ["X", "M", "L", "XXXL"],
+      "availableSizes": ["X", "L", "XXXL"],
       "price": 10.7
     },
     {
-      "id": "shirt11",
+      "id": 11,
       "title": "T-shirt 11",
       "image": "/images/image11.jpg",
       "description": "T-shirt 11 description 1",
-      "availableSizes": ["X", "M", "L"],
+      "availableSizes": ["X", "M"],
       "price": 17.5
     },
     {
-      "id": "shirt12",
+      "id": 12,
       "title": "T-shirt 12",
       "image": "/images/image12.jpg",
       "description": "T-shirt 12 description 1",
