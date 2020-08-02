@@ -35,7 +35,7 @@ export const sortProducts = (filterProducts, sort) => (dispatch) => {
         ? a.price < b.price
           ? -1
           : 1
-        : sort == "highest"
+        : sort === "highest"
         ? a.price > b.price
           ? -1
           : 1
