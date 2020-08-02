@@ -1,51 +1,10 @@
 // feature 1
 import React from "react";
-import Products from "./components/Products";
-import Filter from "./components/Filter";
 import Cart from "./components/Cart";
+import Filter from "./components/Filter";
+import Products from "./components/Products";
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      cartItems: JSON.parse(localStorage.getItem("cartItems"))
-        ? JSON.parse(localStorage.getItem("cartItems"))
-        : [],
-    };
-  }
-
-  createOrder = (order) => {
-    alert("Need to save order for : " + order.name);
-  };
-
-  addToCart = (product) => {
-    const cartItems = this.state.cartItems.slice();
-    // check if already in cart
-    let isInCart = false;
-    cartItems.forEach((item) => {
-      if (item.id === product.id) {
-        item.count++;
-        isInCart = true;
-      }
-    });
-    if (!isInCart) {
-      cartItems.push({ ...product, count: 1 });
-    }
-    this.setState({ cartItems });
-    localStorage.setItem("cartItems", JSON.stringify(cartItems));
-  };
-
-  removeFromCart = (item) => {
-    const cartItems = this.state.cartItems.slice();
-    const newCartItems = cartItems.filter(
-      (cartItem) => cartItem.id !== item.id
-    );
-    this.setState({
-      cartItems: newCartItems,
-    });
-    localStorage.setItem("cartItems", JSON.stringify(newCartItems));
-  };
-
   render() {
     return (
       <div className="grid-container">
@@ -56,14 +15,10 @@ class App extends React.Component {
           <div className="content">
             <div className="main">
               <Filter />
-              <Products addToCart={this.addToCart} />
+              <Products />
             </div>
             <div className="sidebar">
-              <Cart
-                createOrder={this.createOrder}
-                removeFromCart={this.removeFromCart}
-                cartItems={this.state.cartItems}
-              />
+              <Cart />
             </div>
           </div>
         </main>
